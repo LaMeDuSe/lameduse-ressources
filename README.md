@@ -1,2 +1,2 @@
-# lameduse-ressources
+# LaMeDuSe Ressources 
 Ressources for examples

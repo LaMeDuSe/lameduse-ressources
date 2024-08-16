@@ -26,7 +26,7 @@ jobs:
   build-and-push-image:
     strategy:
       matrix:
-        name: ["dok_fileread", "dok_filewrite"]
+        name: ["dok_fileread", "dok_filewrite", "dok_netread", "dok_netwrite"]
     runs-on: ubuntu-20.04
     permissions:
       contents: read

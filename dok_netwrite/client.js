@@ -33,3 +33,10 @@ process.stdin.on('data', (text) => {
     req.write(text);
     req.end();
 });
+
+process.on('SIGINT', function() {
+    console.log("Caught interrupt signal");
+
+    if (i_should_exit)
+        process.exit();
+});

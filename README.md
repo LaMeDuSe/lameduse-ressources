@@ -1,4 +1,4 @@
-# LaMeDuSe Ressources 
+# LaMeDuSe Ressources
 
 Ressources for examples
 

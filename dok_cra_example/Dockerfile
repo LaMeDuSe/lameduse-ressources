@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY . .
 
+ENV PATH /app/node_modules/.bin:$PATH
 RUN npm ci --silent
 
 RUN npm run build

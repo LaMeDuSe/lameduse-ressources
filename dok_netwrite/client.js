@@ -37,6 +37,6 @@ process.stdin.on('data', (text) => {
 process.on('SIGINT', function() {
     console.log("Caught interrupt signal");
 
-    if (i_should_exit)
-        process.exit();
+    //if (i_should_exit)
+    process.exit();
 });

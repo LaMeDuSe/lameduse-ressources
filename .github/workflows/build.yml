@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: registry.infra.lameduse.fr
+  REGISTRY: ${{ vars.LAMEDUSE_REGISTRY }}
   IMAGE_NAME: public/lameduse-ressources
 
 concurrency:

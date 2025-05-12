@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Commandes
+
+### Télécharges les dépendances
+> npm ci
+
+### Construit l'application
+> npm run build
+
 ## Available Scripts
 
 In the project directory, you can run:
